@@ -14,7 +14,7 @@ isbn_13 = kaggle_data['isbn13']         # extract the ISBN-13 column
 
 isbn_13.shape 
 
-test = isbn_13.head(5)
+test = isbn_13.head(10)
 
 # create an empty list to store the book data
 book_data_list = []
